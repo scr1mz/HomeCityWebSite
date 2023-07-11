@@ -1,0 +1,28 @@
+.profilePage {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+
+  .controls {
+    display: flex;
+    gap: 8px;
+  }
+
+  .field {
+    width: 320px;
+  }
+
+  .error {
+    color: red;
+  }
+
+  .payments {
+    padding-bottom: 8px;
+  }
+
+  .purchases {
+    padding-bottom: 8px;
+  }
+}

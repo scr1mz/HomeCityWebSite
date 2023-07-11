@@ -1,0 +1,15 @@
+.similarListings {
+  width: 100%;
+}
+
+.listingsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .listingsContainer {
+    flex-direction: column;
+  }
+}

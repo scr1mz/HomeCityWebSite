@@ -1,0 +1,10 @@
+.selectCategoryDialog {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding-top: 8px;
+
+  .error {
+    color: red;
+  }
+}

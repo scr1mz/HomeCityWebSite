@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  align-items: center;
+
+  .label {
+    flex-grow: 1;
+    margin-right: 8px;
+  }
+
+  .button {
+    min-width: 32px;
+  }
+}

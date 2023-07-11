@@ -1,0 +1,31 @@
+.loginDialog {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding-top: 8px;
+
+  .error {
+    color: red;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .horizontalControls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .verticalControls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-direction: column;
+  }
+}

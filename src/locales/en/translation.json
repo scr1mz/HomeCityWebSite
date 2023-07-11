@@ -1,0 +1,138 @@
+{
+	"footer": {
+		"copyright": "HomeCity"
+	},
+	"header": {
+		"home": "Home",
+		"buy": "Real Estate",
+		"sell": "Publish",
+		"my_listings": "My listings",
+		"users": "Users",
+		"moderation": "Moderation"
+	},
+	"home": {
+		"greeting": "Welcome to HomeCity",
+		"slogan": "Find your dream home today!",
+		"info": "Web-service for viewing and publishing real estate ads"
+	},
+	"more": "More",
+	"create_listing": "Create listing",
+	"edit_listing": "Edit listing",
+	"listing_card": {
+		"title_apartment": "{{rooms}}-room apartment with an area of {{area}} m² on the {{floor}}th/{{total_floors}}th floor",
+		"title_room": "Room with an area of {{area}} m² on the {{floor}}th/{{total_floors}}th floor",
+		"title_house": "{{rooms}}-room house with an area of {{area}} m² {{total_floors}} floors",
+		"title_land": "Land with an area of {{area}} m²"
+	},
+	"search_bar": {
+		"filters": "Filters",
+		"search_placeholder": "Search"
+	},
+	"filter_dialog": {
+		"title": "Filter"
+	},
+	"location_dialog": {
+		"title": "City selection"
+	},
+	"login_dialog": {
+		"authorization": "Authorization",
+		"registration": "Registration",
+		"one_time_password": "One-time password",
+		"enter": "Enter",
+		"register": "Register",
+		"send_one_time_password": "Send one-time password",
+		"one_time_password_info": "The one-time password was sent to the email"
+	},
+	"profile": {
+		"title": "Profile"
+	},
+	"category_dialog": {
+		"title": "Category selection"
+	},
+	"role_dialog": {
+		"title": "Role selection"
+	},
+	"apply": "Apply",
+	"cancel": "Cancel",
+	"back": "Back",
+	"description": "Description",
+	"price": "Price",
+	"type": "Type",
+	"address": "Address",
+	"rooms": "Rooms",
+	"area": "Area",
+	"floor": "Floor",
+	"total_floors": "Total floors",
+	"for_sale": "For sale",
+	"for_rent": "For rent",
+	"apartment": "Apartment",
+	"room": "Room",
+	"house": "House",
+	"land": "Land",
+	"email": "Email",
+	"password": "Password",
+	"phone": "Phone",
+	"full_name": "Full name",
+	"role": "Role",
+	"from": "From",
+	"to": "To",
+	"not_found": "Not found",
+	"ok": "OK",
+	"continue": "Continue",
+	"exit": "Exit",
+	"change": "Change",
+	"refresh": "Refresh",
+	"balance": "Balance",
+	"sum": "Sum",
+	"refill": "Refill",
+	"loading": "Loading...",
+	"updated": "Updated",
+	"publish": "Publish",
+	"category_list": {
+		"draft": "Draft",
+		"checking": "Publication",
+		"approved": "Approved",
+		"rejected": "Rejected",
+		"archived": "Archived",
+		"removed": "Removed"
+	},
+	"role_list": {
+		"admin": "Admin",
+		"moderator": "Moderator",
+		"user": "User",
+		"agent": "Agent"
+	},
+	"refills": "Refills",
+	"purchases": "Purchases",
+	"something_went_wrong": "Something went wrong",
+	"required_fields_not_filled": "Required fields not filled",
+	"add": "Add",
+	"remove": "Remove",
+	"save": "Save",
+	"clear": "Clear",
+	"no": "No",
+	"NO": "No",
+	"yes": "Yes",
+	"bathroom_type": "Bathroom",
+	"bathrooms_count": "Bathrooms",
+	"loggias_count": "Loggias",
+	"repair_type": "Repair",
+	"building_type": "Building",
+	"elevators_count": "Elevators",
+	"has_cargo_elevator": "Cargo elevator",
+	"has_parking": "Parking",
+	"has_electricity": "Electricity",
+	"has_gas": "Gas",
+	"has_water": "Water",
+	"COMBINED": "Combined",
+	"SEPARATED": "Separated",
+	"COSMETIC": "Cosmetic",
+	"EURO": "Euro",
+	"DESIGN": "Design",
+	"BRICK": "Brick",
+	"PANEL": "Panel",
+	"BLOCK": "Block",
+	"WOOD": "Wood",
+	"MONOLITH": "Monolith",
+	"m2": "m²"
+}

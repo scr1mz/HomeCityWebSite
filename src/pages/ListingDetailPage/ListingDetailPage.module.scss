@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 25px;
+  padding: 20px;
+  max-width: 1200px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  justify-content: space-between;
+  padding-right: 300px;
+}
+
+.containerDetails {
+  align-self: flex-start;
+  max-width: 700px;
+}
+
+.tunedCarouselContainer {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.tunedCarouselContainer img {
+  object-fit: contain;
+}
+
+.containerActions {
+  position: fixed;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .containerDetails {
+    max-width: 100%;
+  }
+
+  .tunedCarouselContainer {
+    height: 300px;
+  }
+
+  .containerActions {
+    position: relative;
+    top: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .tunedCarouselContainer {
+    height: 200px;
+  }
+}

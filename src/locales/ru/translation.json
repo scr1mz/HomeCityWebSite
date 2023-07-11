@@ -1,0 +1,137 @@
+{
+	"footer": {
+		"copyright": "HomeCity"
+	},
+	"header": {
+		"home": "Главная",
+		"buy": "Недвижимость",
+		"sell": "Опубликовать",
+		"my_listings": "Мои объявления",
+		"users": "Пользователи",
+		"moderation": "Модерация"
+	},
+	"home": {
+		"greeting": "Добро пожаловать в HomeCity",
+		"slogan": "Найди дом свой мечты сегодня!",
+		"info": "Веб-сервис для просмотра и публикации объявлений о недвижимости"
+	},
+	"more": "Больше",
+	"create_listing": "Создать объявление",
+	"edit_listing": "Редактировать объявление",
+	"listing_card": {
+		"title_apartment": "{{rooms}}-комн. квартира площадью {{area}} м² на {{floor}}/{{total_floors}} этаже",
+		"title_room": "Комната площадью {{area}} м² на {{floor}}/{{total_floors}} этаже",
+		"title_house": "{{rooms}}-комн. дом площадью {{area}} м² {{total_floors}} этажей",
+		"title_land": "Земля площадью {{area}} м²"
+	},
+	"search_bar": {
+		"filters": "Фильтры",
+		"search_placeholder": "Поиск"
+	},
+	"filter": "Фильтр",
+	"location_dialog": {
+		"title": "Выбор города"
+	},
+	"login_dialog": {
+		"authorization": "Авторизация",
+		"registration": "Регистрация",
+		"one_time_password": "Одноразовый пароль",
+		"enter": "Войти",
+		"register": "Зарегистрировать",
+		"send_one_time_password": "Отправить одноразовый пароль",
+		"one_time_password_info": "Одноразовый пароль отправлен на электропочту"
+	},
+	"profile": {
+		"title": "Профиль"
+	},
+	"category_dialog": {
+		"title": "Выбор категории"
+	},
+	"role_dialog": {
+		"title": "Выбор роли"
+	},
+	"apply": "Применить",
+	"cancel": "Отмена",
+	"back": "Назад",
+	"description": "Описание",
+	"price": "Цена",
+	"type": "Тип",
+	"address": "Адрес",
+	"rooms": "Количество комнат",
+	"area": "Площадь",
+	"floor": "Этаж",
+	"total_floors": "Всего этажей",
+	"for_sale": "Для продажи",
+	"for_rent": "Для аренды",
+	"apartment": "Квартира",
+	"room": "Комната",
+	"house": "Дом",
+	"land": "Земля",
+	"email": "Электропочта",
+	"password": "Пароль",
+	"phone": "Телефон",
+	"full_name": "Имя",
+	"role": "Роль",
+	"from": "От",
+	"to": "До",
+	"not_found": "Не найдено",
+	"ok": "OK",
+	"continue": "Продолжить",
+	"exit": "Выйти",
+	"change": "Изменить",
+	"refresh": "Обновить",
+	"balance": "Баланс",
+	"sum": "Сумма",
+	"refill": "Пополнить",
+	"loading": "Загрузка...",
+	"updated": "Обновлено",
+	"publish": "Опубликовать",
+	"category_list": {
+		"draft": "Черновик",
+		"checking": "Публикация",
+		"approved": "Одобрено",
+		"rejected": "Отклонено",
+		"archived": "Архив",
+		"removed": "Удалено"
+	},
+	"role_list": {
+		"admin": "Администратор",
+		"moderator": "Модератор",
+		"user": "Пользователь",
+		"agent": "Агент"
+	},
+	"refills": "Пополнения",
+	"purchases": "Покупки",
+	"something_went_wrong": "Что-то пошло не так",
+	"required_fields_not_filled": "Не заполнены обязательные поля",
+	"add": "Добавить",
+	"remove": "Удалить",
+	"save": "Сохранить",
+	"clear": "Очистить",
+	"no": "Нет",
+	"NO": "Нет",
+	"yes": "Да",
+	"bathroom_type": "Санузел",
+	"bathrooms_count": "Количество санузлов",
+	"loggias_count": "Количество лоджий",
+	"repair_type": "Ремонт",
+	"building_type": "Дом",
+	"elevators_count": "Количество лифтов",
+	"has_cargo_elevator": "Грузовой лифт",
+	"has_parking": "Парковка",
+	"has_electricity": "Электричество",
+	"has_gas": "Газ",
+	"has_water": "Вода",
+	"COMBINED": "Совмещенный",
+	"SEPARATED": "Раздельный",
+	"OTHER": "Другое",
+	"COSMETIC": "Косметический",
+	"EURO": "Евро",
+	"DESIGN": "Дизайн",
+	"BRICK": "Кирпич",
+	"PANEL": "Панель",
+	"BLOCK": "Блок",
+	"WOOD": "Дерево",
+	"MONOLITH": "Монолит",
+	"m2": "м²"
+}

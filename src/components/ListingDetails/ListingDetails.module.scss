@@ -1,0 +1,26 @@
+.listingDetails {
+  flex: 1;
+  max-width: 600px;
+  margin-right: 20px;
+
+}
+
+.listingDetails ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listingDetails li {
+  margin-bottom: 5px;
+}
+
+.listingDetails li :first-of-type {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .listingDetails {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

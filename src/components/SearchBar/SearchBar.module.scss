@@ -1,0 +1,63 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 16px 5%;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .filtersText {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .filterIcon {
+    color: #6c757d;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.05);
+    }
+  }
+
+
+  .searchIcon {
+    color: #6c757d;
+    transition: transform 0.3s ease;
+
+    &:hover,
+    &:focus {
+      background: transparent;
+      transform: rotate(45deg);
+    }
+  }
+
+  .clearIcon {
+    color: #6c757d;
+    transition: transform 0.3s ease;
+
+    &:hover,
+    &:focus {
+      background: transparent;
+    }
+  }
+
+  .MuiTextField-root {
+    transition: transform 0.3s ease;
+
+    &:focus-within {
+      transform: scaleX(1.1);
+    }
+  }
+}

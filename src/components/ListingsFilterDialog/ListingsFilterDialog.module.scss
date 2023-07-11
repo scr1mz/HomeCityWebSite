@@ -1,0 +1,16 @@
+.listingsFilterDialog {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding-top: 8px;
+
+  .row {
+    display: flex;
+    align-items: center;
+  }
+
+  .label {
+    width: 100px;
+    padding-right: 8px;
+  }
+}
