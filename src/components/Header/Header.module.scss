@@ -124,9 +124,33 @@
   }
 }
 
-@media (max-width: 768px) {
-
-}
 @media (max-width: 576px) {
 
+  .location button{
+    font-size: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin-left: -20px;
+  }
+
+  .login button{
+    font-size: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin-right: -10px;
+  }
+
+  .logo{
+    img{
+      height: 5px;
+    }
+    span{
+      font-size: 8px;
+    }
+  }
+  .right_side{
+    margin-right: -8px;
+  }
 }
