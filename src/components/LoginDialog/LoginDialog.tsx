@@ -167,6 +167,7 @@ export const LoginDialog: React.FC<LoginDialogProps> = ({ onEnter, onClose }) =>
 									</Button>
 								</div>
 								<div className={styles.horizontalControls}>
+									<div className={styles.horizontalControls2}>
 									<Button
 										variant="contained"
 										onClick={() => {
@@ -180,6 +181,7 @@ export const LoginDialog: React.FC<LoginDialogProps> = ({ onEnter, onClose }) =>
 									<Button variant="text" onClick={onClose} sx={{width: "240px"}}>
 										{t("cancel")}
 									</Button>
+									</div>
 								</div>
 							</>
 						)}

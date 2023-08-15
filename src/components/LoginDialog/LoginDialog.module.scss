@@ -16,7 +16,7 @@
     padding: 8px;
   }
 
-  .horizontalControls {
+  .horizontalControls , .horizontalControls2{
     display: flex;
     align-items: center;
     gap: 8px;
@@ -27,5 +27,43 @@
     align-items: center;
     gap: 8px;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .controls{
+    button {
+      width: 100%;
+    }
+  }
+  .horizontalControls{
+    flex-direction: column;
+  }
+  .horizontalControls2{
+    flex-direction: column;
+    width: 113%;
+  }
+}
+
+@media (max-width: 576px) {
+  .controls{
+    button {
+      width: 100%;
+    }
+  }
+  .horizontalControls{
+    flex-direction: column;
+  }
+  .horizontalControls2{
+    flex-direction: column;
+    width: 113%;
+  }
+}
+
+@media (max-width: 340px) {
+  .controls{
+    button {
+      width: 180px;
+    }
   }
 }
