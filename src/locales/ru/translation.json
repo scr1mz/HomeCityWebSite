@@ -21,7 +21,7 @@
 	"listing_card": {
 		"title_apartment": "{{rooms}}-комн. квартира площадью {{area}} м² на {{floor}}/{{total_floors}} этаже",
 		"title_room": "Комната площадью {{area}} м² на {{floor}}/{{total_floors}} этаже",
-		"title_house": "{{rooms}}-комн. дом площадью {{area}} м² {{total_floors}} этажей",
+		"title_house": "{{rooms}}-комн. дом площадью {{area}} м², этажей: {{total_floors}}",
 		"title_land": "Земля площадью {{area}} м²"
 	},
 	"search_bar": {

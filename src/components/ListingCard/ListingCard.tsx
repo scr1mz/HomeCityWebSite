@@ -54,7 +54,9 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing, variant, onCl
             />
             <div className={styles.listingInfo} onClick={() => onClick && onClick(listing.id)}>
                 <h3>{title}</h3>
-                <p>{listing.description}</p>
+                <div className={styles.cardDescription}>
+                    <p>{listing.description}</p>
+                </div>
                 <div className={styles.priceContainer}>
                     {(variant === "myListings" || variant === "moderation") && (
                         <Button
@@ -79,7 +81,7 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing, variant, onCl
                             {t("change")}
                         </Button>
                     )}
-                    <p className={styles.price}>{t("price") + ": " + listing.price.toLocaleString()} ₽</p>
+                    <p className={styles.price}>{listing.price.toLocaleString()} ₽</p>
                 </div>
             </div>
             {selectCategoryDialogVisible && (
