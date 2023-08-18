@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  align-items: center;
   margin: 0 25px;
   padding: 20px;
   max-width: 1200px;
@@ -10,12 +9,13 @@
 }
 
 .containerDetails {
+  display: flex;
+  flex-direction: column;
   align-self: flex-start;
   max-width: 700px;
 }
 
 .tunedCarouselContainer {
-  width: 50%;
   margin: 0 auto;
 }
 
@@ -41,17 +41,20 @@
 @media (max-width: 1200px) {
   .container {
     flex-direction: column;
+    justify-content: center;
+    padding-right: 0;
   }
-
-  .containerDetails {
+  .containerDetails{
     max-width: 100%;
+    justify-self: center;
+  }
+  .containerDescription{
+
   }
 
-  .tunedCarouselContainer {
-    height: 300px;
-  }
-
-  .containerActions {
+  .containerActions{
+    right: 0;
+    transform: none;
     position: relative;
     top: auto;
   }
@@ -61,8 +64,7 @@
   .content {
     flex-direction: column;
   }
-
-  .tunedCarouselContainer {
-    height: 200px;
+  .containerActions{
+    align-self: center;
   }
 }

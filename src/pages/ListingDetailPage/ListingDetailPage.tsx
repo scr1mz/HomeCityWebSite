@@ -64,7 +64,9 @@ export const ListingDetailPage = () => {
                                 setImageIndex={setImageIndex}
                             />
                         </div>
-                        <ListingDetails listing={listing} />
+                        <div className={styles.containerDescription}>
+                            <ListingDetails listing={listing} />
+                        </div>
                     </div>
                     <div className={styles.containerActions}>
                         <ListingActions listing={listing} user={user} agent={agent} />
