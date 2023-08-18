@@ -31,7 +31,6 @@
     }
   }
 
-
   .searchIcon {
     color: #6c757d;
     transition: transform 0.3s ease;
@@ -58,6 +57,14 @@
 
     &:focus-within {
       transform: scaleX(1.1);
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .filterIcon{
+    span{
+      font-size: 0;
     }
   }
 }
