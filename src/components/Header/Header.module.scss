@@ -89,7 +89,8 @@
   }
 
   .navLink {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 8px;
     color: #fff;
     text-decoration: aqua;
@@ -152,5 +153,9 @@
   }
   .right_side{
     margin-right: -8px;
+  }
+
+  .navLink{
+    font-size: 14px;
   }
 }
