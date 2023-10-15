@@ -57,7 +57,8 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing, variant, onCl
                 <div className={styles.cardDescription}>
                     <p>{listing.description}</p>
                 </div>
-                <div className={styles.priceContainer}>
+                <div className={styles.bottomContainer}>
+                    <div className={styles.statusContainer}>
                     {(variant === "myListings" || variant === "moderation") && (
                         <Button
                             sx={categoryStyle}
@@ -81,7 +82,10 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing, variant, onCl
                             {t("change")}
                         </Button>
                     )}
-                    <p className={styles.price}>{listing.price.toLocaleString()} ₽</p>
+                        </div>
+                    <div className={styles.priceContainer}>
+                        <p className={styles.price}>{listing.price.toLocaleString()} ₽</p>
+                    </div>
                 </div>
             </div>
             {selectCategoryDialogVisible && (

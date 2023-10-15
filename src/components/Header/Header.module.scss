@@ -1,9 +1,14 @@
+@import "../../index";
+
 .header {
   justify-content: center;
   align-items: center;
   height: 120px;
-  background-color: #557A95;
+  background-color: $back-color1;
   position: relative;
+  @media (max-width: 576px) {
+    height: 60px;
+  }
 
   .topHeader {
     display: flex;
@@ -23,6 +28,10 @@
     display: flex;
     justify-content: center;
     height: 60px;
+
+    @media (max-width: 576px) {
+      display: none;
+    }
   }
 
   .logo {
@@ -57,6 +66,11 @@
     transition: opacity 0.2s ease-in-out;
     &:hover {
       opacity: 0.7;
+    }
+
+    @media (max-width: 576px) {
+      position: absolute;
+      left: 4em;
     }
   }
 
@@ -154,7 +168,6 @@
   .right_side{
     margin-right: -8px;
   }
-
   .navLink{
     font-size: 14px;
   }

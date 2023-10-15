@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect, useRef} from "react";
 import {Link, useNavigate} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 import styles from "./Header.module.scss";
@@ -14,6 +14,9 @@ import {LoginDialog} from "../LoginDialog";
 import useLocalStorageState from "use-local-storage-state";
 import type {Location} from '../../utils/types/listingTypes';
 import { SelectPropertyTypeDialog } from "../SelectPropertyTypeDialog";
+import { BurgerIcon } from '../BurgerIcon/BurgerIcon';
+import { MobileMenu } from '../MobileMenu/MobileMenu';
+import { useMobileMenu } from '../MobileMenuProvider/MobileMenuProvider'
 
 export const Header = () => {
     const {t} = useTranslation();
@@ -24,6 +27,11 @@ export const Header = () => {
             coords: [55.753833, 37.620795]
         }
     });
+    const {
+        isOpen,
+        toggleMenu,
+        updateBurgerIcon
+    } = useMobileMenu()
     const [cookies] = useCookies(["id", "token"]);
     const [info] = useLocalStorageState<any>("info");
     const [selectLanguageDialogVisible, setSelectLanguageDialogVisible] = useState(false);
@@ -31,9 +39,26 @@ export const Header = () => {
     const [loginDialogVisible, setLoginDialogVisible] = useState(false);
     const [selectPropertyTypeDialogVisible, setSelectPropertyTypeDialogVisible] = useState(false);
     const handleLoginDialogClose = () => setLoginDialogVisible(false);
+    const appRef = useRef<HTMLDivElement | null>(null)
+
+    useEffect(() => {
+        if (!isOpen) {
+            return
+        }
+            window.addEventListener('scroll', toggleMenu)
+            window.addEventListener('scroll', updateBurgerIcon)
+
+            return () => {
+                window.removeEventListener('scroll', toggleMenu)
+                window.removeEventListener('scroll', updateBurgerIcon)
+            }
+    })
+
     return (
         <div className={styles.header}>
             <div className={styles.topHeader}>
+                <BurgerIcon/>
+                <MobileMenu setSelectPropertyTypeDialogVisible={setSelectPropertyTypeDialogVisible} />
                 <div className={styles.location}>
                     <Button
                         variant="text"
