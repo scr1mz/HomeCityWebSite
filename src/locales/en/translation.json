@@ -13,7 +13,8 @@
 	"home": {
 		"greeting": "Welcome to HomeCity",
 		"slogan": "Find your dream home today!",
-		"info": "Web-service for viewing and publishing real estate ads"
+		"info": "Web-service for viewing and publishing real estate ads",
+		"toListings": "View real estate catalog"
 	},
 	"more": "More",
 	"create_listing": "Create listing",
